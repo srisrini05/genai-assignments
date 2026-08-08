@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.salesforce.testcases.TC005_CreateWorkType"/>
+      <class name="com.salesforce.testcases.TC002_CreateIndividuals"/>
+      <class name="com.salesforce.testcases.TC004_DeleteIndividuals"/>
+      <class name="com.salesforce.testcases.TC001_CreateNewCase"/>
+      <class name="com.salesforce.testcases.TC003_EditIndividuals"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
